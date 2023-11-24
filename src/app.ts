@@ -10,7 +10,7 @@ app.use('/', UserRoutes);
 app.get('/', (req: Request, res: Response) => {
   res.status(200).json({
     success: true,
-    message: 'assignment project is running',
+    message: 'project is running',
   });
 });
 
